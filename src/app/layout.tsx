@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Darian AI",
-  description: "AI-powered mathematical equation solver and educational assistant",
+  title: "Darian's Study",
+  description: "I don't know what I'm doing here. I'm just doing stuff.",
   icons: {
     icon: [
       {
@@ -23,6 +23,17 @@ export const metadata: Metadata = {
         type: "image/x-icon",
       },
     ],
+  },
+  openGraph: {
+    title: "Darian's Study",
+    description: "I don't know what I'm doing here. I'm just doing stuff.",
+    type: "website",
+    url: "https://dr-darian-ai.vercel.app",
+  },
+  twitter: {
+    card: "summary",
+    title: "Darian's Study",
+    description: "I don't know what I'm doing here. I'm just doing stuff.",
   },
 };
 
